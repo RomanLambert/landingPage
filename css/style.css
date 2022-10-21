@@ -1,0 +1,62 @@
+body{
+    background-color:white ;
+}
+p{
+    color: black;
+}
+
+header h1{
+    font-size: 39px;
+}
+
+#accueil{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    width: 274px;
+}
+
+header img{
+    margin: 0 auto;
+}
+
+header div nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+header div{
+    background-color: orangered;
+}
+
+main img{
+    width: 700px;
+}
+
+.couleurpink{
+    color: pink;
+}
+
+.couleurstarlight{
+    color: lightblue;
+}
+
+.couleurnoir{
+    color: black;
+}
+main div{
+    display: flex;
+    justify-content: end;
+}
+
+main ul{
+    font-size: 30px;
+}
+
+@media screen and(min-width:668px) and (max-width:1090px){
+    main img{
+        width: 20%;
+    }
+
+}
